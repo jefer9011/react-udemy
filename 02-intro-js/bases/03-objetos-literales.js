@@ -11,7 +11,7 @@ const persona = {
 };
 
 console.table(persona);
-// Operador spread para clonar objetos const objectName2 =  {...objectName1}
+
 const persona2 = { ...persona};
 persona2.nombre = 'Peter';
 console.log(persona2);
